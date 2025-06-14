@@ -1,0 +1,147 @@
+/*common start*/
+.body{
+    margin: 0;
+    padding: 0;
+}
+/*common end*/
+/*header start*/
+header{
+    padding: 10px;
+    border-bottom: 3px solid #eef0f3;
+}
+.contener{
+    width: 90%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 10%;
+     /*border: 1px solid red;*/
+     float: left;
+
+}
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    margin-top: 18px;
+    width: 45%;
+     /*border: 1px solid red;*/
+     float: right;
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin: 0px 20px;
+    display: inline-block;
+
+}
+.menu ul li a{
+    font-weight: 400;
+    color: #008AFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    list-style: none;
+    float: left;
+    margin: 0px 20px;
+    display: inline-block;
+}
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    padding: 60px 0;
+}
+
+.container2{
+    width: 55%;
+    margin: 0 auto;
+}
+.b-content{
+    font-family: sans-serif;
+    text-align: center;
+}
+.b-content h1{
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0F2656;
+
+}
+.b-content h2{
+    margin: 10px 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: #008AFF;
+   
+
+}
+.b-content p{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656;
+    line-height: 23px;
+    word-spacing: 1px;
+}
+.b_img{
+    margin: 0 auto;
+    width: 75%;
+
+}
+/*banner end*/
+/*success start*/
+.success{
+    padding: 60px 0;
+
+}
+.s_content{
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+.s_left{
+    padding: 0 10px 0 20px;
+    width: 40%;
+    float: left;
+    text-align: right;
+
+}
+.s_left h2{
+    margin: 0 10px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #f15767;
+
+}
+.s_left p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+    word-spacing: 2px;
+    font-weight: 400;
+    color: #0F2656;
+
+}
+.s_right{
+    width: 45%;
+    float: right;
+    padding: 0 20px 0 10px;
+}
+.s_right h1{
+    margin: 10px 0;
+    line-height: 50px;
+     font-size: 43px;
+    font-weight: 700;
+    color: #0F2656
+}
+/*success end*/
